@@ -5,6 +5,7 @@ import Home from '../pages/home'
 */
 import Detail from '../pages/goodsDetail'
 import Msg from '../components/message'
+import center from '../pages/center'
 
 
 Vue.use(VueRouter)
@@ -29,6 +30,10 @@ const routes = [
         component: Msg
       }
     ]
+  },
+  {
+      path: '/center',
+      component: center,
   }
 ]
 export default new VueRouter({
